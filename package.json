@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"tsc index.ts && node index.js",
+    "start:types":"tsc basics/types.ts --outdir dist/ && node dist/types.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
